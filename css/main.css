@@ -1,25 +1,26 @@
 body{
 	margin: 0;
 	font-family: 'Futura';
-	background-color: lightgray;
+	background-color: #fcfcfc;
 }
 header{
 	background-color: white;
-	padding: 5px;
+	padding: 8px 7px 5px;
+  border-bottom: 2px #e8e8e8 solid;
 }
 div.container{
-  display:inline-block;
+  display:inline;
   Width:auto!important;
   vertical-align: middle;
 } 
  .featured-nav {
-    display: block;
+    display: inline-block;
     height: 100%;
   }
 
   .featured-nav > ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: box;
+    display: flexbox;
     display: flex;
     height: 100%;
   }
@@ -34,7 +35,7 @@ div.container{
   }
 
   .featured-nav > ul > li > a {
-    font-size: 14px;
+    font-size: 2vh;
     position: relative;
     font-weight: 200;
     padding: 0 20px;
@@ -60,7 +61,7 @@ div.container{
     content: "";
     position: absolute;
     width: 0;
-    height: 3px;
+    height: 4px;
     bottom: -40%;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -160,3 +161,58 @@ div.container{
 main img{
   max-width: 100%;
 }
+main div.title-of-page{
+  font-size: 3vh;
+  color: black;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: #fcfcfc;
+}
+main div.content-of-page{
+  font-size: 14px;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 65%;
+  padding-bottom: 3%;
+}
+.content2-container{
+    background-color: #f0f0f0;
+    display: flex;
+    position: relative;
+}
+.content2-child-img{
+  flex-basis: 50%;
+}
+.content2-child{
+  display: block;
+  align-content: left;
+  font-size: 30px;
+  flex-basis: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
