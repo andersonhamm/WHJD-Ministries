@@ -52,6 +52,12 @@ div.container{
     transition: color .25s;
   }
 
+  .featured-nav a:link {
+    text-decoration: none;
+  }
+  .featured-nav a:visited{
+    text-decoration: none;
+  }
   .featured-nav a:hover,
   .featured-nav a:active {
     color: #b33c00;
@@ -186,17 +192,23 @@ p{
     background-color: #f0f0f0;
     display: flex;
     position: relative;
+    text-align: center;
 }
 .content2-child-img{
   flex-basis: 50%;
 }
 .content2-child{
   display: block;
-  align-content: left;
-  font-size: 30px;
+  font-size: 22px;
   flex-basis: 50%;
-  text-align: center;
-  margin: auto;
+  align-content: center;
+}
+blockquote{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 27%;
+  text-align: left;
 }
 
 
